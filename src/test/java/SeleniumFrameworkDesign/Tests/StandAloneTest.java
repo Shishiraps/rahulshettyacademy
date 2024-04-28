@@ -42,7 +42,7 @@ public class StandAloneTest extends BaseTest{
 	public void submitOrder(HashMap<String,String> input) throws IOException, InterruptedException
 	{
 		
-		
+		//commented
 		ProductCatalogue productcatalogue=landingpage.loginapplication(input.get("email"), input.get("password"));
 		
 		List<WebElement> products=productcatalogue.returnProducts();
